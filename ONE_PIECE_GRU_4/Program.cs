@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ONE_PIECE_GRU_4;
+using System;
 
 namespace ONE_PIECE_GRUP_4
 {
@@ -11,31 +12,13 @@ namespace ONE_PIECE_GRUP_4
             Console.WriteLine("=================================================\n");
             Console.WriteLine("Esperando la llegada de la mercancía (Pull Requests)...\n");
 
-            // --- DOCENTE: Descomentar al aprobar los Pull Requests ---
-
-            /*
-            // Estudiante 1
-            FiguraAccion luffy = new FiguraAccion();
+           
+            Figura_Accion luffy = new Figura_Accion();
+            luffy.Nombre = "figura de accion";
+            luffy.Personaje = "Monkey D. Luffy";
             luffy.MostrarInfoBase();
             Console.WriteLine($"Precio Final (con envío): {luffy.CalcularPrecioFinal()} Berries");
 
-            // Estudiante 2
-            PrendaRopa sombrero = new PrendaRopa();
-            sombrero.MostrarInfoBase();
-            Console.WriteLine($"Precio Final: {sombrero.CalcularPrecioFinal()} Berries");
-            sombrero.Equipar();
-
-            // Estudiante 3
-            EspadaReplica wado = new EspadaReplica();
-            wado.MostrarInfoBase();
-            wado.Equipar();
-            wado.ProcesarVenta(2);
-
-            // Estudiante 4
-            FrutaDelDiablo mera = new FrutaDelDiablo();
-            mera.MostrarInfoBase();
-            mera.Consumir();
-            */
 
             Console.WriteLine("\nPresiona ENTER para salir...");
             Console.ReadLine();
